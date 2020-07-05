@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-04T14:57:05 EDT" name="Surefire suite" finished-at="2020-07-04T14:57:10 EDT" duration-ms="4729">
+    <groups>
+    </groups>
+    <test started-at="2020-07-04T14:57:05 EDT" name="Surefire test" finished-at="2020-07-04T14:57:10 EDT" duration-ms="4729">
+      <class name="testtweet.TestTweetAPIClient">
+        <test-method is-config="true" signature="setUpTweetAPI()[pri:0, instance:testtweet.TestTweetAPIClient@37afeb11]" started-at="2020-07-04T14:57:05 EDT" name="setUpTweetAPI" finished-at="2020-07-04T14:57:05 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTweetAPI -->
+        <test-method signature="testDeleteTweet()[pri:0, instance:testtweet.TestTweetAPIClient@37afeb11]" started-at="2020-07-04T14:57:05 EDT" name="testDeleteTweet" finished-at="2020-07-04T14:57:07 EDT" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteTweet -->
+        <test-method signature="testRetweetTweet()[pri:0, instance:testtweet.TestTweetAPIClient@37afeb11]" started-at="2020-07-04T14:57:07 EDT" name="testRetweetTweet" finished-at="2020-07-04T14:57:07 EDT" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetweetTweet -->
+        <test-method signature="testSearchTweet()[pri:0, instance:testtweet.TestTweetAPIClient@37afeb11]" started-at="2020-07-04T14:57:07 EDT" name="testSearchTweet" finished-at="2020-07-04T14:57:07 EDT" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTweet -->
+        <test-method signature="testShowTweet()[pri:0, instance:testtweet.TestTweetAPIClient@37afeb11]" started-at="2020-07-04T14:57:07 EDT" name="testShowTweet" finished-at="2020-07-04T14:57:08 EDT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShowTweet -->
+        <test-method signature="testUnretweetTweet()[pri:0, instance:testtweet.TestTweetAPIClient@37afeb11]" started-at="2020-07-04T14:57:08 EDT" name="testUnretweetTweet" finished-at="2020-07-04T14:57:08 EDT" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnretweetTweet -->
+        <test-method signature="testUserCanNotTweetTheSameTweetTwiceInARow()[pri:0, instance:testtweet.TestTweetAPIClient@37afeb11]" started-at="2020-07-04T14:57:08 EDT" name="testUserCanNotTweetTheSameTweetTwiceInARow" finished-at="2020-07-04T14:57:09 EDT" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCanNotTweetTheSameTweetTwiceInARow -->
+        <test-method signature="testUserCanTweetSuccessfully()[pri:0, instance:testtweet.TestTweetAPIClient@37afeb11]" started-at="2020-07-04T14:57:09 EDT" name="testUserCanTweetSuccessfully" finished-at="2020-07-04T14:57:09 EDT" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCanTweetSuccessfully -->
+        <test-method signature="testUserTweet()[pri:0, instance:testtweet.TestTweetAPIClient@37afeb11]" started-at="2020-07-04T14:57:09 EDT" name="testUserTweet" finished-at="2020-07-04T14:57:10 EDT" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserTweet -->
+      </class> <!-- testtweet.TestTweetAPIClient -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

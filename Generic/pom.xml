@@ -85,9 +85,22 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>json-schema-validator</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>com.relevantcodes</groupId>
+            <artifactId>extentreports</artifactId>
+
+        </dependency>
 
 
     </dependencies>
+
+
+
 
     <build>
 
@@ -106,7 +119,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <!--                <version>3.0.0-M4</version>-->
+                                <version>3.0.0-M4</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
@@ -115,6 +128,10 @@
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
+
+
+
+
 
 
         </plugins>
